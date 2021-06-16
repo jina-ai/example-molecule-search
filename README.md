@@ -5,9 +5,17 @@ Example showcasing  the `GraphDocument` type for molecule search.
 
 #### Installing dependencies
 
-This package uses `rdkit` which is not pip installable. Hence you are highly encouraged to install it with conda using `conda_requiremnts.txt`.
+This package uses `rdkit` which is not pip installable. Hence you are highly encouraged to install it with conda using `conda_requiremnts.txt`. It is encouraged to do the following process in a conda environment which can be done with `conda create --name molecule_env conda`.
+
+```bash
+conda install --file conda_requirements.txt
+```
 
 The other packages that are required are pip installable and can be installed from `requirements.txt`
+
+```
+pip install -r requirements.txt
+```
 
 
 
